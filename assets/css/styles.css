@@ -33,7 +33,7 @@ header {
 header h1 {
     font-size: 42px;
     color: rgb(240, 248, 255); 
-    text-shadow: 0 0 20px red;
+    text-shadow: 0 0 50px white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* font-family: 'Bebas Neue', cursive; */
     /* font-family: 'Montserrat', sans-serif; */
@@ -112,18 +112,27 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    width: 100%;
-    margin: 0 auto;
+    padding: 0 50px;
+    /* width: 100%;
+    margin: 0 auto; */
 }
 
 .content {
     margin: 20px;
     background-color: brown;
     color: white;
-    /* flex: 1; */
+    flex: 1 200px;
 }
 
-.content img {
+.content-big {
+    flex: 1 800px;
+}
+
+.pic-1 {
+    width: 100%;
+}
+
+.pic {
     width: 100%;
 }
 
