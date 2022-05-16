@@ -15,6 +15,9 @@ a {
 
 p {
     margin: 20px;
+    font-size: 17px;
+    /* font-family: 'Bebas Neue', cursive; */
+    font-family: 'Montserrat', sans-serif;
 }
 
 header {
@@ -28,6 +31,7 @@ header {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+    z-index: 10;
 }
 
 header h1 {
@@ -65,7 +69,6 @@ header nav {
     background-color: yellowgreen;
     color: black;
     border-radius: 10px;
-    
 }
 
 .photo {
@@ -82,7 +85,7 @@ h2 {
     font-size: 36px;
     color: blue;
     font-family: 'Bebas Neue', cursive;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     border-bottom: 2px solid black;
 }
 
@@ -99,13 +102,11 @@ h2 {
 }
 
 .container {
-        /* margin: 20px; */
-        padding: 50px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        /* border: 1px solid black; */
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .applications {
@@ -122,10 +123,17 @@ h2 {
     background-color: brown;
     color: white;
     flex: 1 200px;
+    overflow: hidden;
 }
 
 .content-big {
     flex: 1 800px;
+}
+
+.content img:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    cursor: pointer;
 }
 
 .pic-1 {
