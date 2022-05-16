@@ -10,7 +10,6 @@ body {
 
 a {
     text-decoration: none;
-    padding: 5px;
 }
 
 p {
@@ -58,6 +57,7 @@ header nav {
 }
 
 .list li a {
+    padding: 5px;
     margin: 20px;
     color: rgb(240, 248, 255);
     font-size: 16px;
@@ -79,6 +79,17 @@ header nav {
     background-size: cover;
     background-position: top;
     border-radius: 50%;
+}
+
+button {
+    color: black;
+    font-family: 'Montserrat', sans-serif;;
+    padding: 2px;
+    background-color: yellow;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
 }
 
 h2 {
@@ -114,8 +125,8 @@ h2 {
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 0 50px;
-    /* width: 100%;
-    margin: 0 auto; */
+    width: 100%;
+    margin: 0 auto;
 }
 
 .content {
@@ -131,13 +142,9 @@ h2 {
 }
 
 .content img:hover {
-    transform: scale(1.1);
-    transition: 1s;
+    transform: scale(1.08);
+    transition: .5s;
     cursor: pointer;
-}
-
-.pic-1 {
-    width: 100%;
 }
 
 .pic {
@@ -150,16 +157,20 @@ h2 {
 } 
 
 .app-name {
-    font-size: 28px;
+    font-size: 26px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px;
 }
 
 .app-language {
     font-size: 22px;
+    font-family: 'Bebas Neue', cursive;
     font-weight: lighter;
 }
 
 .text p {
     font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 footer {
