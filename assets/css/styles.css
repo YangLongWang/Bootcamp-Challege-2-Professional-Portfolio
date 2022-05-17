@@ -4,26 +4,20 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: antiquewhite;
-}
-
-a {
-    text-decoration: none;
+:root {
+    --black: black;
+    --white: white;
 }
 
 p {
     margin: 20px;
     font-size: 17px;
-    /* font-family: 'Bebas Neue', cursive; */
     font-family: 'Montserrat', sans-serif;
 }
 
 header {
     padding: 30px;
-    background: black;
-    background-size: cover;
-    background-position: center;
+    background-color: black;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -36,10 +30,8 @@ header {
 header h1 {
     font-size: 42px;
     color: rgb(240, 248, 255); 
-    text-shadow: 0 0 50px white;
+    text-shadow: 0 0 50px var(--white);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* font-family: 'Bebas Neue', cursive; */
-    /* font-family: 'Montserrat', sans-serif; */
 }
 
 header nav {
@@ -67,7 +59,7 @@ header nav {
 
 .list li a:hover {
     background-color: yellowgreen;
-    color: black;
+    color: var(--black);
     border-radius: 10px;
 }
 
@@ -82,7 +74,7 @@ header nav {
 }
 
 button {
-    color: black;
+    color: var(--black);
     font-family: 'Montserrat', sans-serif;;
     padding: 2px;
     background-color: yellow;
@@ -92,12 +84,12 @@ button {
     cursor: pointer;
 }
 
-h2 {
+.container h2 {
     font-size: 36px;
     color: blue;
     font-family: 'Bebas Neue', cursive;
     margin-bottom: 15px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid var(--black);
 }
 
 .about-me {
@@ -124,27 +116,24 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 0 50px;
-    width: 100%;
-    margin: 0 auto;
+    padding: 0 60px;
 }
 
 .content {
-    margin: 20px;
+    margin: 25px;
     background-color: brown;
-    color: white;
-    flex: 1 200px;
+    color: var(--white);
+    flex: 1 300px;
     overflow: hidden;
 }
 
 .content-big {
-    flex: 1 800px;
+    flex: 1 1000px;
 }
 
 .content img:hover {
-    transform: scale(1.08);
+    transform: scale(1.07);
     transition: .5s;
-    cursor: pointer;
 }
 
 .pic {
@@ -173,9 +162,26 @@ h2 {
     font-family: 'Montserrat', sans-serif;
 }
 
-footer {
-    background-color: cadetblue;
+.work a, .list a {
+    text-decoration: none;
+    color: var(--white);
 }
 
-/* font-family: 'Bebas Neue', cursive;
-font-family: 'Montserrat', sans-serif; */
+.contact-me a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+footer {
+    padding: 15px;
+    background-color: var(--black);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+footer p {
+    color: var(--white);
+}
+
+
