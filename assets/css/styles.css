@@ -184,4 +184,110 @@ footer p {
     color: var(--white);
 }
 
+@media screen and (max-width: 980px) {
+    header {
+        padding: 25px;
+    }
 
+    p {
+        text-align: center;
+    }
+
+    .text p {
+        text-align: left;
+    }
+
+    .applications {
+        padding: 0 40px;
+    }
+
+    footer {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 22px;
+    }
+
+    header h1 {
+        font-size: 38px;
+    }
+
+    .list li a {
+        padding: 3px;
+        margin: 10px;
+    }
+
+    .content {
+        margin: 10px 50px 10px 50px;
+    }
+
+    .app-name {
+        font-size: 22px;
+    }
+
+    .app-language {
+        font-size: 20px;
+    }
+
+    footer p {
+        margin: 10px;
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 414px) {
+    header {
+        justify-content: space-evenly;
+    }
+
+    header h1 {
+        font-size: 30px;
+        margin: 10px;
+    }
+
+    .container h2 {
+        font-size: 30px;
+    }
+
+    .list li a {
+        font-size: 14px;
+    }
+
+    p {
+        margin: 10px;
+        font-size: 16px;
+    }
+
+    button {
+        margin: 10px;
+    }
+
+    .applications {
+        margin: 5px;
+        padding: 0;
+    }
+
+    .container {
+        padding: 10px 0;
+    }
+
+    .app-name {
+        font-size: 20px;
+    }
+
+    .app-language {
+        font-size: 18px;
+    }
+
+    .text p {
+        font-size: 16px;
+    }
+
+    address {
+        margin: 20px;
+    }
+}
