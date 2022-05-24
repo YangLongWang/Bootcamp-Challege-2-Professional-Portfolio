@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/YangLongWang/Bootcamp-Challege-2-Professional-Portfolio](https://github.com/YangLongWang/Bootcamp-Challege-2-Professional-Portfolio)
-- Live Site URL: [https://yanglongwang.github.io/Bootcamp-Challege-2-Professional-Portfolio/](https://yanglongwang.github.io/Bootcamp-Challege-2-Professional-Portfolio/)
+- Solution URL: [https://github.com/YangLongWang/Bootcamp-Challenge-2-Professional-Portfolio](https://github.com/YangLongWang/Bootcamp-Challenge-2-Professional-Portfolio)
+- Live Site URL: [https://yanglongwang.github.io/Bootcamp-Challenge-2-Professional-Portfolio/](https://yanglongwang.github.io/Bootcamp-Challenge-2-Professional-Portfolio/)
 
 ## My process
 
