@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/YangLongWang/Bootcamp-Challege-2-Professional-Portfolio](https://github.com/YangLongWang/Bootcamp-Challege-2-Professional-Portfolio)
-- Live Site URL: [https://yanglongwang.github.io/Bootcamp-Challege-2-Professional-Portfolio/](https://yanglongwang.github.io/Bootcamp-Challege-2-Professional-Portfolio/)
+- Live Site URL: [https://yanglongwang.github.io/Professional-Portfolio/](https://yanglongwang.github.io/Professional-Portfolio/)
 
 ## My process
 
